@@ -7,13 +7,13 @@ return (
 <footer className="bg-slate-900 text-white mt-20">
 <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
 <div>
-<h3 className="font-bold text-lg">Mollak Ventures</h3>
+<h3 className="font-bold text-lg">TalentAndTrades</h3>
 <p className="mt-2 text-sm">Connecting talent with opportunity and investors with disciplined trading.</p>
 </div>
 <div>
 <h4 className="font-semibold">Contact</h4>
-<p className="text-sm mt-2">Email: hello@example.com</p>
-<p className="text-sm">Phone: +91 98765 43210</p>
+<p className="text-sm mt-2">Email: hr@talentandtrades.com</p>
+<p className="text-sm">Phone: +91 9634000899</p>
 </div>
 <div>
 <h4 className="font-semibold">Legal</h4>

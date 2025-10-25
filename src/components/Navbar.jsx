@@ -5,7 +5,7 @@ import { FiMenu } from 'react-icons/fi';
 
 export default function Navbar() {
 return (
-<header className="bg-emerald-500 shadow-sm">
+<header className="bg-teal-800 shadow-sm">
 <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
 <Link to="/" className="text-2xl font-bold">Empowering Careers</Link>
 <nav className="hidden md:flex gap-6 items-center">

@@ -13,8 +13,8 @@ return (
 </div>
 <div>
 <h3 className="font-semibold">Other ways to reach</h3>
-<p className="mt-2 flex items-center gap-2"><FiMail /> hello@example.com</p>
-<p className="mt-2 flex items-center gap-2"><FiPhone /> +91 98765 43210</p>
+<p className="mt-2 flex items-center gap-2"><FiMail /> hr@talentandtrades.com</p>
+<p className="mt-2 flex items-center gap-2"><FiPhone /> +91 9634000899</p>
 </div>
 </div>
 );
