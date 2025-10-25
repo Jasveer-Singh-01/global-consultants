@@ -1,7 +1,7 @@
 import React from 'react';
 import JobCard from '../components/JobCard';
 import jobs from '../data/jobs';
-import bgImage from '../assets/images/home/blogimage.webp'; // 👈 import your background image
+import bgImage from '../assets/images/home/blogimage.png'; 
 
 export default function Placements() {
   return (
