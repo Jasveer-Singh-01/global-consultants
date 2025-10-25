@@ -5,7 +5,7 @@ import bgImage from '../assets/images/home/investment.png'; // 👈 import your 
 export default function Investors() {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat py-10"
+      className="relative bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url(${bgImage})`, // 👈 use imported image here
       }}

@@ -2,17 +2,29 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import heroBg from '../assets/images/home/chart-vec.jpg'; // 👈 import your image
+import heroVideo from '../assets/videos/hero-bg.mp4'; // 👈 import your image
 
 export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat py-20"
-      style={{
-        backgroundImage: `url(${heroBg})`, // 👈 use imported image here
-      }}
-    >
+    // <section
+    //   className="relative bg-cover bg-center bg-no-repeat py-20"
+    //   style={{
+    //     backgroundImage: `url(${heroBg})`, // 👈 use imported image here
+    //   }}
+    // >
+
+      <section className="relative overflow-hidden py-20">
+      {/* 🎬 Background video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src={heroVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black/40"></div>
 
